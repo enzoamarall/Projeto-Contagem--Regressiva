@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0; /* espaçmento interno*/
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(pink, cyan);
+    /*height: 100vh;  altura 100%*/
+    justify-content: center;
+    align-items: center;
+}
+#relogio{
+    display: flex;
+    gap: 30px; /* Afastar os espaços*/
+    height: 100vh; /* altura 100%*/
+    justify-content: center;
+    align-items: center;
+}
+#relogio div{
+    padding: 80px; /* Afastamento interno*/
+    border-radius: 150px;  /*Bordas*/
+    background: rgb(172, 178, 141);
+    color: rgb(90, 23, 23);
+}
+#relogio div span{
+    font-size: 70px;
+    font-family: principal;
+}
+@font-face {
+    font-family: principal;
+    src: url('/Images/DS-DIGIT.TTF');
+}
+h1{
+    margin-right: 10px;
+    color: rgb(20, 39, 55);
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
